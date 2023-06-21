@@ -25,7 +25,7 @@ while True:
     if com1 == "ver":
         print("FatCisDOS 12")
         print("Build 1200")
-        print("©MECIS Software.")
+        print("©FatCisDev Software.")
     if com1 == "exit":
         os.system('cls')
         break
