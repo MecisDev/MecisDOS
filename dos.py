@@ -24,7 +24,7 @@ while True:
         print("Test command")
     if com1 == "ver":
         print("FatCisDOS 12")
-        print("Build 1150")
+        print("Build 1200")
         print("©MECIS Software.")
     if com1 == "exit":
         os.system('cls')
