@@ -1,13 +1,12 @@
 import time
 import os
 import psutil
-import PySimpleGUI as sg
 from datetime import datetime
 
 os.system('cls')
 print("Welcome to ")
-print("FatCisDos 13")
-print("Build 1211")
+print("FatCisDos 12")
+print("Build 1200")
 time.sleep(2)
 now = datetime.now()
 
@@ -18,15 +17,15 @@ time.sleep(0.2)
 print("One little bit...")
 time.sleep(1)
 os.system('cls')
-print("Welcome to FatCisDOS 13! this is dos adapted to run on modern os's. This project use GNU GPL 3")
+print("Welcome to FatCisDOS 12! this is dos adapted to run on modern os's. This project use GNU GPL 3")
 while True:
     com1 = input("root@fatcisdos:>/ ")
     if com1 == "test":
         print("Test command")
     if com1 == "ver":
-        print("FatCisDOS 13")
-        print("Build 1211")
-        print("©MECIS Software.")
+        print("FatCisDOS 12")
+        print("Build 1200")
+        print("©FatCisDev.")
     if com1 == "exit":
         os.system('cls')
         break
