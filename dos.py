@@ -41,7 +41,7 @@ while True:
         print ("help - this command            dir - view files on this category")
         print ("reset - restart the dos    clear - clear all messeges on the dos")
         print ("test - test command         exit - exit the dos")
-        print ("ver - version            vk - Mecis Software VK Group")
+        print ("ver - version            vk - FatCisDev VK Group")
         print ("info - DOS Information      authors - DOS Authors")
         print ("color green,blue or gray - making DOS green, blue and gray!")
         print ("echo - repeats words   notepad - opening windows notepad")
