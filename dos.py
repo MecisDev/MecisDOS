@@ -5,8 +5,8 @@ from datetime import datetime
 
 os.system('cls')
 print("Welcome to ")
-print("FatCisDos 12")
-print("Build 1200")
+print("FatCisDos Dev")
+print("Build 1211")
 time.sleep(2)
 now = datetime.now()
 
@@ -17,14 +17,14 @@ time.sleep(0.2)
 print("One little bit...")
 time.sleep(1)
 os.system('cls')
-print("Welcome to FatCisDOS 12! this is dos adapted to run on modern os's. This project use GNU GPL 3")
+print("Welcome to FatCisDOS Dev! This project use GNU GPL 3")
 while True:
     com1 = input("root@fatcisdos:>/ ")
     if com1 == "test":
         print("Test command")
     if com1 == "ver":
-        print("FatCisDOS 12")
-        print("Build 1200")
+        print("FatCisDOS Dev")
+        print("Build 1210")
         print("©FatCisDev.")
     if com1 == "exit":
         os.system('cls')
@@ -41,11 +41,10 @@ while True:
         print ("help - this command            dir - view files on this category")
         print ("reset - restart the dos    clear - clear all messeges on the dos")
         print ("test - test command         exit - exit the dos")
-        print ("ver - version            vk - Mecis Software VK Group")
+        print ("ver - version            vk - FatCisDev VK Group")
         print ("info - DOS Information      authors - DOS Authors")
         print ("color green,blue or gray - making DOS green, blue and gray!")
-        print ("echo - repeats words   notepad - opening windows notepad")
-        print ("time - shows the time  mspaint - starts microsoft paint")
+        print ("echo - repeats words        time - shows the time "   )
     if com1 == "authors":
         print ("Nikita Rojdestvin - Versions until 8.0.1")
         print ("Artem Litvinsev - Versions from 8.1. FatCisDev Owner")
@@ -55,22 +54,12 @@ while True:
 
     if com1 == "kakish":
         print("ugh. ugh. ugh.")
-    if com1 == "color green":
-        os.system("color 2")
-    if com1 == "color blue":
-        os.system("color 1")
-    if com1 == "color gray":
-        os.system("color 8")
-    if com1 == "notepad":
-        os.system("notepad")
     if com1 == "echo":
-        word = input("what word do you need?: ")
-        os.system("echo " +word)
-    if com1 == "cmd":
-        com = input("what command do you need?: ")
+        word=input("Write your words:")
+        print(echo)
+    if com1 == "command":
+        com = input("Which command are you need? ")
         os.system(com)
-    if com1 == "mspaint":
-        os.system("mspaint")
     if com1 == "time":
         now = datetime.now()
 
