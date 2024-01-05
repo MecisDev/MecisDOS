@@ -24,7 +24,7 @@ while True:
         print("Test command")
     if com1 == "ver":
         print("FatCisDOS Dev")
-        print("Build 1212")
+        print("Build 1213")
         print("©FatCisDev.")
     if com1 == "exit":
         os.system('cls')
@@ -43,14 +43,15 @@ while True:
         print ("test - test command         exit - exit the dos")
         print ("ver - version               time - shows the time")
         print ("info - DOS Information      authors - DOS Authors")
-        print ("echo - repeats words         gui - Starts the GUI Variant (PRE-DEV)")
-        print ("guireq - GUI Requirments      pip - Installs python libraries in your choice")
+        print ("echo - repeats words         gui - Starts the GUI Variant on Windows (PRE-DEV)")
+        print ("guireq - GUI Requirments      pip install - Installs python libraries in your choice")
+        print ("guiinfo - GUI Build Information")
     if com1 == "authors":
         print ("Nikita Rojdestvin - Versions until 8.0.1")
         print ("Artem Litvinsev - Versions from 8.1. FatCisDev Owner")
         print ("Seva Tretyakov - Former Coder. XDAFAD Software Owner")
     if com1 == "info":
-        print("FatCisDOS is a DOS without installing By FatCisDev (Former MECIS Software).")
+        print("FatCisDOS is a DOS without installing By FatCisDev.")
 
     if com1 == "echo":
         word=input("Write your words:")
@@ -68,11 +69,14 @@ while True:
         os.system("python3 gui.py")
 
     if com1 == "guireq":
-        os.system("pip install pyqt6")
+        os.system("pip install pyside6")
     
-    if com1 == "pip":
+    if com1 == "pip install":
         libname = input("Enter library name: ")
         os.system("pip install " + libname)
+
+    if com1 == "guiinfo":
+        print("FatCisDG Build 1")
 
 
         
