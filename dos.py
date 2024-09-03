@@ -59,16 +59,12 @@ while True:
         os.system("color 1")
     if com1 == "color gray":
         os.system("color 8")
-    if com1 == "notepad":
-        os.system("notepad")
     if com1 == "echo":
         word = input("what word do you need?: ")
         os.system("echo " +word)
     if com1 == "cmd":
         com = input("what command do you need?: ")
         os.system(com)
-    if com1 == "mspaint":
-        os.system("mspaint")
     if com1 == "time":
         now = datetime.now()
 
