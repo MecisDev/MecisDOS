@@ -41,11 +41,9 @@ while True:
         print ("help - this command            dir - view files on this category")
         print ("reset - restart the dos    clear - clear all messeges on the dos")
         print ("test - test command         exit - exit the dos")
-        print ("ver - version            vk - Mecis Software VK Group")
+        print ("ver - version")
         print ("info - DOS Information      authors - DOS Authors")
-        print ("color green,blue or gray - making DOS green, blue and gray!")
-        print ("echo - repeats words   notepad - opening windows notepad")
-        print ("time - shows the time  mspaint - starts microsoft paint")
+        print ("echo - repeats words   time - shows the time")
     if com1 == "authors":
         print ("Nikita Rojdestvin - Versions until 8.0.1")
         print ("Artem Litvinsev - Versions from 8.1. FatCisDev Owner")
@@ -78,6 +76,15 @@ while True:
         print("Current Time: ", current_time)
     if com1 == "fatcis":
         print("https://vk.com/fatcisdev")
+    if com1 == "note:
+      def save_file():
+        name=input("Name for the file: ")
+        with open(name + ".txt", "w") as f:
+         f.write(text)
+
+     text=input()
+     keyboard.add_hotkey('ctrl+s', save_file)
+     keyboard.wait('esc')
 
 
         
