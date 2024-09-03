@@ -1,12 +1,12 @@
 import time
 import os
-import psutil
+import keyboard
 from datetime import datetime
 
 os.system('cls')
 print("Welcome to ")
 print("FatCisDos 12")
-print("Build 1200")
+print("Build 1220")
 time.sleep(2)
 now = datetime.now()
 
@@ -17,14 +17,14 @@ time.sleep(0.2)
 print("One little bit...")
 time.sleep(1)
 os.system('cls')
-print("Welcome to FatCisDOS 12! this is dos adapted to run on modern os's. This project use GNU GPL 3")
+print("Welcome to FatCisDOS 12.1! this is dos adapted to run on modern os's. This project use GNU GPL 3")
 while True:
     com1 = input("root@fatcisdos:>/ ")
     if com1 == "test":
         print("Test command")
     if com1 == "ver":
-        print("FatCisDOS 12")
-        print("Build 1200")
+        print("FatCisDOS 12.1")
+        print("Build 1220")
         print("©FatCisDev.")
     if com1 == "exit":
         os.system('cls')
@@ -72,15 +72,20 @@ while True:
         print("Current Time: ", current_time)
     if com1 == "fatcis":
         print("https://vk.com/fatcisdev")
-    if com1 == "note:
+    if com1 == "note":
       def save_file():
         name=input("Name for the file: ")
         with open(name + ".txt", "w") as f:
          f.write(text)
 
-     text=input()
-     keyboard.add_hotkey('ctrl+s', save_file)
-     keyboard.wait('esc')
+      print("press enter then ctrl+s to save. press ctrl+x to exit.")
+      text=input()
+      keyboard.add_hotkey('ctrl+s', save_file)
+      keyboard.wait('ctrl+x')
+
+
+        
+
 
 
         
