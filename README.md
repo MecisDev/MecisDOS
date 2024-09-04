@@ -1,5 +1,5 @@
 # About
-FatCisDOS DEV (Formerly MECIS DOS), Python DOS-like emulator script. works very simple. This is DEV branch with the new features but unstable. The OS is "Loading" then the code enters the loop with input and has many if(s). For example: 
+MecisDOS, Python DOS-like emulator script. works very simple. The OS is "Loading" then the code enters the loop with input and has many if(s). For example: 
 if com1 (command line) == hello:
   print("hello")
 
@@ -13,7 +13,9 @@ FatCisDos 12.1 (Build 1227): BUGFIX. fixed bug that i accidently put the license
 
 FatCisDos 12.1 (Build 1228): BUGFIX. Fixed license print error and branding problem.
 
-FatCisDos 13 (Build 1235) (DEV): Informs the user if the command is right or unknown. Replace almost all ifs to elifs
+FatCisDos 13 (Build 1235): Informs the user if the command is right or unknown. Replace almost all ifs to elifs
+
+MecisDOS 13 (Build 1240): Branding Changes.
 # How to start?
 For Windows:
 Install Python to System Folder
