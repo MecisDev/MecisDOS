@@ -6,7 +6,7 @@ from datetime import datetime
 os.system('cls')
 print("Welcome to ")
 print("FatCisDos 12")
-print("Build 1227")
+print("Build 1228")
 time.sleep(2)
 now = datetime.now()
 
@@ -24,7 +24,7 @@ while True:
         print("Test command")
     if com1 == "ver":
         print("FatCisDOS 12.1")
-        print("Build 1227")
+        print("Build 1228")
         print("©FatCisDev.")
     if com1 == "exit":
         os.system('cls')
