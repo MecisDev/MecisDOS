@@ -6,7 +6,7 @@ from datetime import datetime
 os.system('cls')
 print("Welcome to ")
 print("FatCisDos DEV BRANCH")
-print("Build 1230")
+print("Build 1235")
 time.sleep(2)
 now = datetime.now()
 
@@ -24,7 +24,7 @@ while True:
         print("Test command")
     elif com1 == "ver":
         print("FatCisDOS DEV")
-        print("Build 1230")
+        print("Build 1235")
         print("©FatCisDev.")
     elif com1 == "exit":
         os.system('cls')
@@ -94,6 +94,13 @@ while True:
 
     elif com1 == "update":
         print("Nothing to see here! The function is still doesn't written!")
+
+    else:
+        print("The Command is Unknown! Try again or write help.")
+
+
+
+
 
 
 
