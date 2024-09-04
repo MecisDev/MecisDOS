@@ -6,7 +6,7 @@ from datetime import datetime
 os.system('cls')
 print("Welcome to ")
 print("FatCisDos 12")
-print("Build 1225")
+print("Build 1226")
 time.sleep(2)
 now = datetime.now()
 
@@ -24,7 +24,7 @@ while True:
         print("Test command")
     if com1 == "ver":
         print("FatCisDOS 12.1")
-        print("Build 1225")
+        print("Build 1226")
         print("©FatCisDev.")
     if com1 == "exit":
         os.system('cls')
@@ -78,7 +78,8 @@ while True:
 
     if com1 == "license":
         print("The Project Used GNU GPL 3 License. It means you can fork it and modify it and then release it. But the limitation is that you can't publish it as propreitary code, Only Open Source.")
-        print("To publish it you should mention who did the program. You can use the "authors" command. Thank you!")
+        print("To publish it you should mention who did the program. You can use the "authors" command.")
+        print("Read more information at LICENSE document at project's repository. Thank You!")
 
       print("press enter then ctrl+s to save. press ctrl+x to exit.")
       text=input()
