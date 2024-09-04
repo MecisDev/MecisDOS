@@ -6,7 +6,9 @@ if com1 (command line) == hello:
 and it works with all the commands.
 
 # What's New?
-FatCisDOS 12.1: Minor Update with adding note command based on Really Stupid Note python script: https://github.com/fatarick/reallystupidnote.
+FatCisDOS 12.1 (Build 1220): Minor Update with adding note command based on Really Stupid Note python script: https://github.com/fatarick/reallystupidnote.
+FatCisDOS 12.1 (Build 1225): Very minor update. Removed fatcis command that redirects to organisation VK group. Added license command that tells you about the license
+FatCisDOS 12.1 (Build 1226): Very Minor Update. Updated license's command information
 # How to start?
 For Windows:
 Install Python to System Folder
