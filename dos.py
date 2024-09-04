@@ -5,7 +5,7 @@ from datetime import datetime
 
 os.system('cls')
 print("Welcome to ")
-print("FatCisDos 12")
+print("FatCisDos 12.1")
 print("Build 1228")
 time.sleep(2)
 now = datetime.now()
