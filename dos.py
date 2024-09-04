@@ -73,7 +73,7 @@ while True:
 
     if com1 == "license":
         print("The Project Used GNU GPL 3 License. It means you can fork it and modify it and then release it. But the limitation is that you can't publish it as propreitary code, Only Open Source.")
-        print("To publish it you should mention who did the program. You can use the "authors" command.")
+        print("To publish it you should mention who did the program. You can use the authors command.")
         print("Read more information at LICENSE document at project's repository. Thank You!")
         
     if com1 == "note":
