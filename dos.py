@@ -5,7 +5,7 @@ from datetime import datetime
 
 os.system('cls')
 print("Welcome to ")
-print("FatCisDos DEV BRANCH")
+print("FatCisDos 13")
 print("Build 1235")
 time.sleep(2)
 now = datetime.now()
@@ -22,9 +22,10 @@ while True:
     com1 = input("root@fatcisdos:>/ ")
     if com1 == "test":
         print("Test command")
-    elif com1 == "ver":
-        print("FatCisDOS DEV")
+    if com1 == "ver":
+        print("FatCisDOS 13")
         print("Build 1235")
+
         print("©FatCisDev.")
     elif com1 == "exit":
         os.system('cls')
@@ -74,7 +75,7 @@ while True:
         print("Current Time: ", current_time)
 
     elif com1 == "license":
-        print("The Project Used GNU GPL 3 License. It means you can fork it and modelify it and then release it. But the limitation is that you can't publish it as propreitary code, Only Open Source.")
+        print("The Project Used GNU GPL 3 License. It means you can fork it and modify it and then release it. But the limitation is that you can't publish it as propreitary code, Only Open Source.")
         print("To publish it you should mention who did the program. You can use the authors command.")
         print("Read more information at LICENSE document at project's repository. Thank You!")
         

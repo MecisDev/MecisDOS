@@ -6,11 +6,14 @@ if com1 (command line) == hello:
 and it works with all the commands.
 
 # What's New?
-FatCisDos 12.1 (Build 1227) (STABLE): BUGFIX. fixed bug that i accidently put the license command into note command
 
-FatCisDos Devoloper Version (Build 1230) (DEV): CODE UPDATE: replace all ifs (except the first if) to elifs.
+FatCisDOS 12.1 (Build 1226): Very Minor Update. Updated license's command information.
 
-FatCisDos Devoloper Version (Build 1235) (DEV): New Feature: Informs the user if the command is right or unknown.
+FatCisDos 12.1 (Build 1227): BUGFIX. fixed bug that i accidently put the license command into note command
+
+FatCisDos 12.1 (Build 1228): BUGFIX. Fixed license print error and branding problem.
+
+FatCisDos 13 (Build 1235) (DEV): Informs the user if the command is right or unknown. Replace almost all ifs to elifs
 # How to start?
 For Windows:
 Install Python to System Folder
