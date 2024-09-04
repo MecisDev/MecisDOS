@@ -1,5 +1,12 @@
-# About this branch
-Main - Stable branch when the DEV version comes stable. Sometimes small features from the DEV branch will be moved to The Main Branch as Small Cumulative Update
+# About
+FatCisDOS (Formerly MECIS DOS), Python DOS-like emulator script. works very simple. The OS is "Loading" then the code enters the loop with input and has many if(s). For example: 
+if com1 (command line) == hello:
+  print("hello")
+
+and it works with all the commands.
+
+# What's New?
+FatCisDOS 12.1: Minor Update with adding note command based on Really Stupid Note python script: https://github.com/fatarick/reallystupidnote.
 # How to start?
 For Windows:
 Install Python to System Folder
