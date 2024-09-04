@@ -13,6 +13,8 @@ FatCisDOS 12.1 (Build 1225): Very minor update. Removed fatcis command that redi
 FatCisDOS 12.1 (Build 1226): Very Minor Update. Updated license's command information.
 
 FatCisDos 12.1 (Build 1227): BUGFIX. fixed bug that i accidently put the license command into note command
+
+FatCisDos 12.1 (Build 1228): BUGFIX. Fixed license print error and branding problem.
 # How to start?
 For Windows:
 Install Python to System Folder
