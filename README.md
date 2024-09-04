@@ -7,6 +7,10 @@ and it works with all the commands.
 
 # What's New?
 FatCisDos 12.1 (Build 1227) (STABLE): BUGFIX. fixed bug that i accidently put the license command into note command
+
+FatCisDos Devoloper Version (Build 1230) (DEV): CODE UPDATE: replace all ifs (except the first if) to elifs.
+
+FatCisDos Devoloper Version (Build 1235) (DEV): New Feature: Informs the user if the command is right or unknown.
 # How to start?
 For Windows:
 Install Python to System Folder
