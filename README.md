@@ -1,5 +1,5 @@
 # About
-FatCisDOS (Formerly MECIS DOS), Python DOS-like emulator script. works very simple. The OS is "Loading" then the code enters the loop with input and has many if(s). For example: 
+FatCisDOS DEV (Formerly MECIS DOS), Python DOS-like emulator script. works very simple. This is DEV branch with the new features but unstable. The OS is "Loading" then the code enters the loop with input and has many if(s). For example: 
 if com1 (command line) == hello:
   print("hello")
 
