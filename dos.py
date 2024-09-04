@@ -46,7 +46,6 @@ while True:
         print ("info - DOS Information      authors - DOS Authors")
         print ("echo - repeats words   time - shows the time")
         print ("github - shows the link to the project's github repository")
-        print ("*SOON TO BE ADDED* update - updates the system if not actual")
     elif com1 == "authors":
         print ("Nikita Rojdestvin - Versions until 8.0.1")
         print ("Artem Litvinsev - Versions from 8.1. FatCisDev Owner")
@@ -92,9 +91,6 @@ while True:
 
     elif com1 == "github":
         print("https://github.com/FatCisDev/FatCisDos/")
-
-    elif com1 == "update":
-        print("Nothing to see here! The function is still doesn't written!")
 
     else:
         print("The Command is Unknown! Try again or write help.")
