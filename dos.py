@@ -149,20 +149,3 @@ while True:
         
     else:
         print("The command does not exist!")
-
-
-
-        
-
-
-
-
-
-
-        
-
-
-
-
-        
-
