@@ -19,6 +19,8 @@ MecisDOS 13 (Build 1240): Branding Changes.
 
 MecisDOS 14 (Build 1250): Added File System Commands and improving the code itself using GitHub Copilot.
 
+MecisDOS 14 (Build 1251): MINOR FUNCTIONAL UPDATE Added "custom" command that allows you to execute commands from the real OS.
+
 # How to start?
 For Windows:
 Install Python to System Folder
