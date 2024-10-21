@@ -16,6 +16,9 @@ FatCisDos 12.1 (Build 1228): BUGFIX. Fixed license print error and branding prob
 FatCisDos 13 (Build 1235): Informs the user if the command is right or unknown. Replace almost all ifs to elifs
 
 MecisDOS 13 (Build 1240): Branding Changes.
+
+MecisDOS 14 (Build 1250): Added File System Commands and improving the code itself using GitHub Copilot.
+
 # How to start?
 For Windows:
 Install Python to System Folder
