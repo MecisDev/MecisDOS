@@ -10,7 +10,7 @@ except ImportError:
 os.system('cls')
 print("Welcome to ")
 print("MecisDOS 14")
-print("Build 1250")
+print("Build 1251")
 time.sleep(2)
 now = datetime.now()
 
@@ -25,7 +25,7 @@ while True:
         print("Test command")
     elif com1 == "ver":
         print("MecisDOS 14")
-        print("Build 1250")
+        print("Build 1251")
         print("©MECIS.")
     elif com1 == "exit":
         os.system('cls')
@@ -50,7 +50,7 @@ while True:
         print("rmdir - remove a folder     cd - change directory")
         print("rename - rename a file      del - delete a file")
         print("copy - copy a file          move - move a file")
-        print("touch - create a file")
+        print("touch - create a file      custom - executes commands from real OS")
     elif com1 == "authors":
         print("Nikita Rojdestvin - Versions until 8.0.1")
         print("Artem Litvinsev - Versions from 8.1. MECIS Dev Owner")
@@ -142,6 +142,11 @@ while True:
                 pass
         else:
             print("The File already exists!")
+
+    elif com1 == "custom":
+        com2 = input("Enter your command that you want to execute from the OS: ")
+        os.system(com2)
+        
     else:
         print("The command does not exist!")
 
