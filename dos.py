@@ -7,10 +7,10 @@ try:
 except ImportError:
     print("The 'keyboard' module is not installed. Please install it using 'pip install keyboard'.")
 
-os.system('cls')
+os.system('clean')
 print("Welcome to ")
 print("MecisDOS 14")
-print("Build 1251")
+print("Build 1252")
 time.sleep(2)
 now = datetime.now()
 
@@ -25,13 +25,13 @@ while True:
         print("Test command")
     elif com1 == "ver":
         print("MecisDOS 14")
-        print("Build 1251")
+        print("Build 1252")
         print("©MECIS.")
     elif com1 == "exit":
         os.system('cls')
         break
-    elif com1 == "clear":
-        os.system('cls')
+    elif com1 == "clean":
+        os.system('clean')
     elif com1 == "reset":
         os.system("python dos.py")
         break
@@ -40,7 +40,7 @@ while True:
     elif com1 == "help":
         print("commands:")
         print("help - this command            dir - view files on this category")
-        print("reset - restart the dos    clear - clear all messages on the dos")
+        print("reset - restart the dos    clean - clear all messages on the dos")
         print("test - test command         exit - exit the dos")
         print("ver - version              license - tells about the license")
         print("info - DOS Information      authors - DOS Authors")
