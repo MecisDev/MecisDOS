@@ -7,7 +7,7 @@ and it works with all the commands.
 
 # What's New?
 
-FatCisDOS 12.1 (Build 1226): Very Minor Update. Updated license's command information.
+FatCisDos 12.1 (Build 1226): Very Minor Update. Updated license's command information.
 
 FatCisDos 12.1 (Build 1227): BUGFIX. fixed bug that i accidently put the license command into note command
 
@@ -20,6 +20,8 @@ MecisDOS 13 (Build 1240): Branding Changes.
 MecisDOS 14 (Build 1250): Added File System Commands and improving the code itself using GitHub Copilot.
 
 MecisDOS 14 (Build 1251): MINOR FUNCTIONAL UPDATE Added "custom" command that allows you to execute commands from the real OS.
+
+MecisDOS 14 (Build 1252): MINOR FUNCTIONAL UPDATE Updated clear command and replaced it to clean also changed his original functionalitty to other one because command "cls" doesnt exist on *nix sysyems.
 
 # How to start?
 For Windows:
