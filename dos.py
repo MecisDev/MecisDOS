@@ -7,10 +7,10 @@ try:
 except ImportError:
     print("The 'keyboard' module is not installed. Please install it using 'pip install keyboard'.")
 
-os.system('clean')
+os.system('clear')
 print("Welcome to ")
 print("MecisDOS 14")
-print("Build 1252")
+print("Build 1253")
 time.sleep(2)
 now = datetime.now()
 
@@ -25,10 +25,10 @@ while True:
         print("Test command")
     elif com1 == "ver":
         print("MecisDOS 14")
-        print("Build 1252")
+        print("Build 1253")
         print("©MECIS.")
     elif com1 == "exit":
-        os.system('cls')
+        os.system('clear')
         break
     elif com1 == "clean":
         os.system('clean')
