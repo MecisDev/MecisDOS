@@ -23,6 +23,10 @@ MecisDOS 14 (Build 1251): MINOR FUNCTIONAL UPDATE Added "custom" command that al
 
 MecisDOS 14 (Build 1252): MINOR FUNCTIONAL UPDATE Updated clear command and replaced it to clean also changed his original functionalitty to other one because command "cls" doesnt exist on *nix sysyems.
 
+MecisDOS 14 (Build 1253): BUGFIX change clean to clear and fix unchaged clean command
+
+MecisDOS 14 (Build 1254): VERY MINOR change command name from clean to clear
+
 # How to start?
 For Windows:
 Install Python to System Folder
