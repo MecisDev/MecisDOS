@@ -10,7 +10,7 @@ except ImportError:
 os.system('clear')
 print("Welcome to ")
 print("MecisDOS 14")
-print("Build 1253")
+print("Build 1254")
 time.sleep(2)
 now = datetime.now()
 
@@ -25,13 +25,13 @@ while True:
         print("Test command")
     elif com1 == "ver":
         print("MecisDOS 14")
-        print("Build 1253")
+        print("Build 1254")
         print("©MECIS.")
     elif com1 == "exit":
         os.system('clear')
         break
-    elif com1 == "clean":
-        os.system('clean')
+    elif com1 == "clear":
+        os.system('clear')
     elif com1 == "reset":
         os.system("python dos.py")
         break
