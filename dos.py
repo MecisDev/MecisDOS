@@ -21,7 +21,7 @@ os.system('clear')
 print("Welcome to MecisDOS 14! This is an OS emulator written in Python.")
 while True:
     com1 = input("root@mecisdos:>/ ")
-    elif com1 == "ver":
+    if com1 == "ver":
         print("MecisDOS 14")
         print("Build 1256")
         print("©MECIS.")
