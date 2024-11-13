@@ -27,6 +27,8 @@ MecisDOS 14 (Build 1253): BUGFIX change clean to clear and fix unchaged clean co
 
 MecisDOS 14 (Build 1254): VERY MINOR change command name from clean to clear
 
+MecisDOS 14 (Build 1255): Removed test command and Changed help command
+
 # How to start?
 For Windows:
 Install Python to System Folder
