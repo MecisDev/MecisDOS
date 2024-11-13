@@ -10,7 +10,7 @@ except ImportError:
 os.system('clear')
 print("Welcome to ")
 print("MecisDOS 14")
-print("Build 1254")
+print("Build 1255")
 time.sleep(2)
 now = datetime.now()
 
@@ -21,11 +21,9 @@ os.system('cls')
 print("Welcome to MecisDOS 14! This is an OS emulator written in Python.")
 while True:
     com1 = input("root@mecisdos:>/ ")
-    if com1 == "test":
-        print("Test command")
     elif com1 == "ver":
         print("MecisDOS 14")
-        print("Build 1254")
+        print("Build 1255")
         print("©MECIS.")
     elif com1 == "exit":
         os.system('clear')
@@ -40,8 +38,8 @@ while True:
     elif com1 == "help":
         print("commands:")
         print("help - this command            dir - view files on this category")
-        print("reset - restart the dos    clean - clear all messages on the dos")
-        print("test - test command         exit - exit the dos")
+        print("reset - restart the dos    clear - clear all messages on the dos")
+        print("exit - exit the dos")
         print("ver - version              license - tells about the license")
         print("info - DOS Information      authors - DOS Authors")
         print("echo - repeats words   time - shows the time")
