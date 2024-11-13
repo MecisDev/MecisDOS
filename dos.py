@@ -10,20 +10,20 @@ except ImportError:
 os.system('clear')
 print("Welcome to ")
 print("MecisDOS 14")
-print("Build 1255")
+print("Build 1256")
 time.sleep(2)
 now = datetime.now()
 
 current_time = now.strftime("%H:%M")
 print("Time is " + current_time)
 time.sleep(2)
-os.system('cls')
+os.system('clear')
 print("Welcome to MecisDOS 14! This is an OS emulator written in Python.")
 while True:
     com1 = input("root@mecisdos:>/ ")
     elif com1 == "ver":
         print("MecisDOS 14")
-        print("Build 1255")
+        print("Build 1256")
         print("©MECIS.")
     elif com1 == "exit":
         os.system('clear')
