@@ -9,7 +9,7 @@ and it works with all the commands.
 
 FatCisDos 12.1 (Build 1226): Very Minor Update. Updated license's command information.
 
-FatCisDos 12.1 (Build 1227): BUGFIX. fixed bug that i accidently put the license command into note command
+FatCisDos 12.1 (Build 1227): BUGFIX. fixed bug that i accidently put the license command into note command.
 
 FatCisDos 12.1 (Build 1228): BUGFIX. Fixed license print error and branding problem.
 
@@ -23,11 +23,11 @@ MecisDOS 14 (Build 1251): MINOR FUNCTIONAL UPDATE Added "custom" command that al
 
 MecisDOS 14 (Build 1252): MINOR FUNCTIONAL UPDATE Updated clear command and replaced it to clean also changed his original functionalitty to other one because command "cls" doesnt exist on *nix sysyems.
 
-MecisDOS 14 (Build 1253): BUGFIX change clean to clear and fix unchaged clean command
+MecisDOS 14 (Build 1253): BUGFIX change clean to clear and fix unchaged clean command.
 
-MecisDOS 14 (Build 1254): VERY MINOR change command name from clean to clear
+MecisDOS 14 (Build 1254): VERY MINOR change command name from clean to clear.
 
-MecisDOS 14 (Build 1255): Removed test command and Changed help command
+MecisDOS 14 (Build 1255): Removed test command and Changed help command.
 
 MecisDOS 14 (Build 1256): Changed last cls mentions.
 
