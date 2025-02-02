@@ -31,6 +31,9 @@ MecisDOS 14 (Build 1255): Removed test command and Changed help command
 
 MecisDOS 14 (Build 1256): Changed last cls mentions.
 
+MecisDOS 14 (Build 1257): Edit info command.
+
+
 # How to start?
 For Windows:
 Install Python to System Folder
