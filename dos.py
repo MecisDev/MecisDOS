@@ -10,7 +10,7 @@ except ImportError:
 os.system('clear')
 print("Welcome to ")
 print("MecisDOS 14")
-print("Build 1256")
+print("Build 1257")
 time.sleep(2)
 now = datetime.now()
 
@@ -23,7 +23,7 @@ while True:
     com1 = input("root@mecisdos:>/ ")
     if com1 == "ver":
         print("MecisDOS 14")
-        print("Build 1256")
+        print("Build 1257")
         print("©MECIS.")
     elif com1 == "exit":
         os.system('clear')
@@ -54,7 +54,7 @@ while True:
         print("Artem Litvinsev - Versions from 8.1. MECIS Dev Owner")
         print("Seva Tretyakov - Former Coder. XDAFAD Software Owner")
     elif com1 == "info":
-        print("MecisDOS is a DOS without installing By MECIS Dev. you must write in cmd or terminal python dos.py and it starts.")
+        print("MecisDOS is a DOS without installing By MECIS Dev. You can use "help" command to understand all the commands. Enjoy!")
     elif com1 == "echo":
         word = input("what word do you need?: ")
         os.system("echo " + word)
