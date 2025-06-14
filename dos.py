@@ -14,8 +14,8 @@ def print_welcome():
     """Prints the initial welcome message and startup sequence."""
     clear_screen()
     print("Welcome to")
-    print("MecisDOS Devoloper Preview")
-    print("Build 1258")
+    print("MecisDOS Codename Paper")
+    print("Build 1259")
     time.sleep(2)
     
     now = datetime.now()
@@ -31,8 +31,8 @@ def print_welcome():
 
 def do_ver(*args):
     """Prints the OS version and build information."""
-    print("MecisDOS Devoloper Preview")
-    print("Build 1258")
+    print("MecisDOS Codename Paper")
+    print("Build 1259")
     print("©MECIS.")
 
 def do_help(*args):
