@@ -14,6 +14,8 @@ FatCisDos 12.1 (Build 1227): BUGFIX. fixed bug that i accidently put the license
 FatCisDos 12.1 (Build 1228): BUGFIX. Fixed license print error and branding problem.
 
 FatCisDos 13 (Build 1235) (DEV): Informs the user if the command is right or unknown. Replace almost all ifs to elifs
+
+MecisDOS Devoloper Preview (Build 1258) Renewing System Code
 # How to start?
 For Windows:
 Install Python to System Folder
